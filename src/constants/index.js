@@ -59,16 +59,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
-    icon: web,
+    title: "Security Engineer",
+    icon: backend,  // keep the existing icon or change if you want
   },
   {
-    title: "Frontend Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
+    title: "AI Product Manager",
+    icon: creator,
   },
   {
     title: "Ui UX Designer",
@@ -154,24 +150,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
-    iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    title: "Security Engineer",
+    company_name: "Your Company",
+    icon: tekisky, // you can replace this with your company logo image imported at the top
+    iconBg: "#000000",
+    date: "Jan 2020 - Present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented security protocols to protect organizational assets.",
+      "Conducted penetration testing and vulnerability assessments.",
+      "Collaborated with product and engineering teams on AI security.",
+      "Monitored and responded to security incidents.",
+    ],
+  },
+  {
+    title: "AI Product Manager",
+    company_name: "Your AI Company",
+    icon: tekisky, // replace with your logo
+    iconBg: "#123456",
+    date: "Feb 2022 - Present",
+    points: [
+      "Led AI product strategy and roadmap.",
+      "Managed cross-functional teams to deliver AI-powered products.",
+      "Worked on customer feedback and iterative product improvements.",
+      "Coordinated with engineering on AI model deployment and scaling.",
     ],
   },
 ];
 
+
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Rafe proved me wrong.",
     name: "MD Mustaqeem",
     designation: "Ecommerce",
     company: "QuickMart",
@@ -179,7 +189,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
+      "I've never met a web developer who truly cares about their clients' success like Rafe does.",
     name: "Abdul Raheman",
     designation: "Ecommerce Business",
     company: "justbuyz",
@@ -187,7 +197,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Rafe optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "James Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -197,77 +207,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "AI-based Threat Detection System",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Developed a system that uses machine learning to detect cybersecurity threats in real time.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Machine Learning", color: "green-text-gradient" },
+      { name: "AWS", color: "pink-text-gradient" },
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: project2, // replace with your project image imported at the top
+    source_code_link: "https://github.com/yourusername/ai-threat-detection",
   },
   {
-    name: "GearXpert",
+    name: "Enterprise Security Dashboard",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Created a dashboard for monitoring and managing security incidents across enterprise systems.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "Express", color: "pink-text-gradient" },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: gearXpert, // replace with your project image
+    source_code_link: "https://github.com/yourusername/security-dashboard",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "AI Product Launch & Analytics",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Managed the launch of an AI-powered product with focus on user adoption and analytics.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      { name: "Product Management", color: "blue-text-gradient" },
+      { name: "Data Analysis", color: "green-text-gradient" },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: project3, // replace with your project image
+    source_code_link: "https://github.com/yourusername/ai-product-launch",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
